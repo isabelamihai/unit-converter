@@ -4,11 +4,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
+        rel="stylesheet">
     <title>Unit converter</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
-
+    <section id="container-converter">
+        <div id="container-head">
+            <h2>Metric/Imperial Unit Conversion</h2>
+            <input type="number" id="input-box"></input>
+            <button id="convert-btn">Convert</button>
+        </div>
+        <div id="container-body">
+            <ul>
+                <li>
+                    <h2>Length(Meter/Feet)</h2>
+                    <p id="l-convert"></p>
+                </li>
+                <li>
+                    <h2>Volume(Liters/Gallons)</h2>
+                    <p id="v-convert"></p>
+                </li>
+                <li>
+                    <h2>Mass(Kilograms/Pounds)</h2>
+                    <p id="m-convert"></p>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <script src="index.js"></script>
 </body>
 
 </html>
