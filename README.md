@@ -21,3 +21,4 @@ Introduce the number you want to covert in the empty field and click "Convert", 
 
 Vezi aplicatia live aici:<br/>
 [GitPages](https://isabelamihai.github.io/unit-converter/)
+[Netlify](https://unit-converter-mini.netlify.app/)
