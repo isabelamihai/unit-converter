@@ -1,4 +1,4 @@
-# Unit-converter app
+# 📏Unit-converter app
 
 Unit converter while using these measurements raports:
 1 meter = 3.281 feet
@@ -15,7 +15,7 @@ Introduce the number you want to covert in the empty field and click "Convert", 
 
 ## 🖻SS
 
-![SS with the app](unit-converter.pngpng)
+![SS with the app](unit-converter.png)
 
 ## 🔛Live link
 
